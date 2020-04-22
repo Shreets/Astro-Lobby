@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./img/bg.jpg");
+  box-sizing: border-box;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.container {
+  width: 60%;
+  height: 90%;
+  background-color: ivory;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 3%;
+}
+
+.content {
+  background-color: khaki;
+  margin: auto;
+  height: 99%;
+  padding: 20px;
+}
+
+.selection {
+  text-align: center;
+  padding: 20px;
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+}
+
+#signs {
+  padding: 10px;
+  width: 120px;
+  height: 50px;
+  border: solid 1px lightgoldenrodyellow;
+  font-family: "Pacifico", cursive;
+}
+
+.horoscope {
+  background-color: white;
+  height: 83%;
+  padding: 20px;
+}
+.sign-name {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "Bangers", cursive;
+  font-family: "Carter One", cursive;
+
+  text-transform: uppercase;
+}
+
+.prediction {
+  height: 60%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.day {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  margin-top: 20px;
+}
+
+.day a {
+  text-decoration: none;
+  color: black;
+}
+#date {
+  display: block;
+  padding-bottom: 8px;
+  font-size: 20px;
+  font-family: "Bangers", cursive;
+}
+
+.horoscope-content {
+  overflow: auto;
+  height: 38vh;
+}
